@@ -5,7 +5,7 @@ import 'package:intl/intl.dart';
 
 class WorldTime {
   String location;
-  String time = '';
+  String? time = '';
   String flag;
   String url;
   bool isDaytime = false;
